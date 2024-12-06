@@ -1,0 +1,429 @@
+*{margin: 0px;
+padding: 0px;
+scroll-behavior: smooth;}
+
+#contenedor {
+	background: #1F1E1E;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	}
+
+header {
+	background: #867F70;
+		width: 0px;
+		height: 84px;
+		left: 0px;
+		}
+
+section{
+	margin-top: -500px;
+}
+
+#articulo2 {
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 850px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#articulo2 img{
+	max-height: 800px;
+	min-width: 200px;
+}
+
+.slider {
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider ul {
+	 display: flex;
+    animation: slide 25s infinite alternate linear;
+	margin: 0;
+	padding: 0px;
+	width: 400%;
+}
+
+.slider li {
+	list-style: none;
+    width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+.slider img {
+    height: auto;
+	display: block;
+}
+
+.slider-child{
+	position: relative;
+	top: 630px;
+	text-align: center;
+}
+
+@keyframes slide {
+    0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100vw;
+  }
+  50% {
+    margin-left: -200vw;
+  }
+  75% {
+    margin-left: -300vw;
+  }
+  100% {
+    margin-left: -400vw;
+  }
+}
+
+.slider-btn {
+	position: absolute;
+    right: 500px; 
+    top: 30%; 
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    padding-right: 10px; 
+    z-index: 10; 
+}
+
+.slider-btn a {
+	text-decoration: none;
+}
+
+.slider-btn button {
+	 background-color: #867F70; 
+    color: white; 
+    border: none; 
+    padding: 15px 20px; 
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slider-btn button:hover {
+    background-color: #5F4B35;
+	transition: background-color 0.3s ease;
+	}
+
+#articulo2 h1, .description{
+	color: white;
+	padding: 3px;
+}
+
+#articulo2 h1{
+	font-weight: bold;
+	font-size: 55px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#articulo2 .description{
+	font-style: none;
+	font-size: 35px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#articulo3{
+	padding: 40px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	border-radius: 10px;
+	height: 750px;
+	margin-top: 0px;
+	background-color: #10161b;
+}
+
+.top-experiments{
+	text-align: center;
+	font-size: 4rem;
+	margin-top: 40px;
+	margin-bottom: -30px;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.title {
+	margin-top: 50px;
+	font-size: 1.5rem;
+}
+
+.card-container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 70px;
+}
+
+
+.card{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.img-exp {
+	width: 300px;
+    height: 500px ;
+    transition-property: height, width;
+    transition-duration: 2000ms, 2000ms;
+}
+
+.img-exp:hover{
+    
+    height: 400px ;
+    width: 310px ;
+
+}
+
+
+.card-titulo{
+	font-size: 2rem;
+	margin: 15px 0 10px;
+	color: #fff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.card-texto{
+	font-size: 1.5rem;
+	color: #E3E3E3;
+	margin-bottom: 15px;
+	padding: 0 10px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.card-button{
+	background: grey;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	position: relative;
+	top: -20px;
+	left: -30px;
+}
+
+#articulo4{
+	background-color: #53626d;
+}
+
+.logo {width: 70px;
+		height: auto;
+		position: absolute;}
+
+#menu{position: fixed;
+		background: #867F70;
+		width: 450px;
+		left: 1000px;
+		top: 10px;
+		height: 60px;}
+a {
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	padding: 15px;
+	position: relative;
+	display: inline-block;
+	bottom: 0px;
+	left: 30px;
+	color: #000000;
+}
+
+#articulo4 {
+	padding: 40px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #315373;
+	height: 750px;
+}
+
+.blacksite-info-text {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	height: 360px;
+	justify-content: center;
+	overflow: hidden;
+	text-align: justify;
+	font-size: 23px;
+	padding: 15px;
+	word-spacing: 13px;
+}
+
+.blacksite-img {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	height: 350px;
+	justify-content: center;
+	overflow: hidden;
+	margin-left: 500px;
+	margin-top: -390px;
+}
+
+.blacksite-info {
+	margin: auto;
+	padding: 10px;
+	font-size: 4rem;
+	margin-top: 80px;
+	margin-bottom: -30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.confidential {
+	margin: auto;
+	padding: 10px;
+	font-size: 2rem;
+	color: #BF2222;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#articulo5 {
+	padding: 40px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #232337;
+	height: 830px;
+	background-color: #10161b;
+}
+
+.POI {
+	text-align: center;
+	font-size: 4rem;
+	margin-bottom: 20px;
+	color: white;
+	margin-top: 40px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.card-container-2 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.card2 {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 520px;
+	align-items: center;
+	overflow: hidden;
+	text-align: justify;
+	margin-top: 5px;
+}
+
+.card2 p {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.card2 h1{
+	color: #FFFFFF;
+	margin: 15px;
+	font-size: 2rem;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.anuncio {
+	background: #867F70;
+	padding: 15px;
+	width: 650px;
+	text-align: center;
+	align-items: center;
+	margin: 0px auto;
+	border-radius: 5px;
+}
+
+.anuncio h1 {
+	margin-left: -50px;
+}
+
+.anuncio:hover {
+    background-color: #5F4B35;
+	transition: background-color 0.3s ease;
+}
+
+footer {   background: #867F70;
+  position: fixed; 
+  height: 80px; 
+  bottom: 0;
+  width: 1000px; 
+  z-index: 1;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px; 
+  box-sizing: border-box; 
+}
+
+.footer-btn {
+  display: flex; 
+  gap: 10px; 
+}
+
+.footer-btn button {
+	  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+	position: relative;
+	right: -320px;
+	
+}
+
+.footer-btn button:hover {
+    background-color: #cccccc;
+  transform: scale(1.1);
+}
+
+.footer-text {
+    font-size: 12px;
+  color: black;
+  max-width: 40%; 
+  word-wrap: break-word; 
+  line-height: 1.4; 
+  text-align: justify; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.footer-text-left {
+  text-align: left;
+	margin-left: -550px;
+	width: 150px;
+}
+
+.footer-text-right {
+ text-align: right;
+	margin-right: 10px;
+	width: 180px;
+}
